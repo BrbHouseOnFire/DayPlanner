@@ -28,7 +28,7 @@ $('.bodycontainer').on('click', '.js-save', function() {
     localStorage.setItem('myDay', JSON.stringify(dailyTasks));
 });
 function getTime() {
-    return now = moment().format("MMM do YYYY");
+    return now = moment().format("MMM Do YYYY");
     // example: Sep 2nd 19
 }
 function setTimestamp() {
@@ -111,6 +111,7 @@ function renderStartPage() {
 /* init */
 /* generate the page */
 renderStartPage();
+
 
 
 
